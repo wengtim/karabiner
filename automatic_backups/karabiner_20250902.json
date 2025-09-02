@@ -100,19 +100,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Save to clipboard when ss",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "4",
-                                    "modifiers": { "mandatory": ["left_command", "shift"] }
-                                },
-                                "to": [{ "shell_command": "screencapture -ci" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Open App",
                         "manipulators": [
                             {
