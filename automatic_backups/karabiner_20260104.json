@@ -152,16 +152,16 @@
                                     "key_code": "2",
                                     "modifiers": { "mandatory": ["left_control", "left_shift", "left_option", "left_command"] }
                                 },
-                                "to": [{ "shell_command": "open -a VirtualBox" }],
+                                "to": [{ "shell_command": "open -a UTM" }],
                                 "type": "basic"
                             },
                             {
-                                "from": {
-                                    "key_code": "3",
-                                    "modifiers": { "mandatory": ["left_control", "left_shift", "left_option", "left_command"] }
-                                },
-                                "to": [{ "shell_command": "open -a TickTick" }],
-                                "type": "basic"
+                              "from": {
+                                "key_code": "3",
+                                "modifiers": { "mandatory": ["left_control", "left_shift", "left_option", "left_command"] }
+                              },
+                              "to": [{ "shell_command": "open -a TickTick" }],
+                              "type": "basic"
                             }
                         ]
                     },
